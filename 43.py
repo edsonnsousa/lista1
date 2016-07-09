@@ -1,0 +1,11 @@
+print "#__ sistema de equacoes lineares__#"
+a = input("Valor A: ")
+b = input("Valor B: ")
+c = input("Valor C: ")
+d = input("Valor D: ")
+e = input("Valor E: ")
+f = input("Valor F: ")
+x = (c*e)-(b*f)/(a*e)-(b*d)
+y = (a*f)-(c*d)/(a*e)-(b*d)
+print ("Valor  de x: %.2f "%x)
+print ("Valor  de y: %.2f"%y)
