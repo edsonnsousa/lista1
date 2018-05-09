@@ -1,6 +1,6 @@
 # -*- coding: cp1252 -*-
-print "#_Questionario Investigativo_#"
-print "digite 's'para SIM||digite 'n'para NAO"
+print "----Questionario Investigativo-----"
+print "Digite 's'para SIM||digite 'n'para NAO"
 status=0
 q1 =  raw_input("Telefonou para a vítima ?")
 q2 =  raw_input("Esteve no local do crime ?")
@@ -30,10 +30,10 @@ else:
 
 print status
 if status ==2:
-    print "Suspeito"
+    print "--->Suspeito"
 if status ==3 or  status ==4:
-    print "Cumplice"
+    print "--->Cumplice"
 if status ==5:
-    print "Assassino"
+    print "--->Assassino"
 if status ==1 or status ==0:
-    print  "Inocente"
+    print  "--->Inocente"
