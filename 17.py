@@ -1,4 +1,4 @@
-base = input("Base: ")
-alt = input("Altura: ")
+base = input("Digite a Base: ")
+alt = input("Digite a Altura: ")
 area = (base*alt)
-print "Area",area
+print ("Area"),area
